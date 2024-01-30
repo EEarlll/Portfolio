@@ -12,7 +12,6 @@ import Cursor from "./Components/Cursor.jsx";
 import Project from "./pages/Project.jsx";
 
 const router = createBrowserRouter(
-  
   createRoutesFromElements(
     <>
       <Route path="/">
@@ -21,6 +20,7 @@ const router = createBrowserRouter(
       </Route>
     </>
   ),
+  { basename: "/Portfolio" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
