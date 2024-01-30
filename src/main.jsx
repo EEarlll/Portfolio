@@ -14,13 +14,13 @@ import Project from "./pages/Project.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/">
+      <Route path="/" exact>
         <Route index element={<Home />} />
         <Route path="/project/:id" element={<Project />} />
       </Route>
     </>
   ),
-  { basename: "/Portfolio" }
+  { basename: "/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
