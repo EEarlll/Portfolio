@@ -280,9 +280,10 @@ const Footer = () => {
             <div
               className="bg-primary p-4 rounded-full md:px-10 my-12 font-mono text-xl hover:scale-110 ease-out duration-300 hover:shadow-lg hover:shadow-primary/50 tracking-widest pointer_event w-fit"
               onClick={() => {
-                document
-                  .getElementById("hero")
-                  .scrollIntoView({ behavior: "smooth" });
+                document.documentElement.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
               }}
             >
               GO TO TOP
