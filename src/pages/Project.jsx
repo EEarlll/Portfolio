@@ -23,7 +23,7 @@ const project_list = {
     source: [Images.pde1, Images.pde2, Images.pde3, Images.pde4, Images.pde5],
     info: "Price Data Exchange (PDE) is a web application designed to provide historical data on fiat currencies, cryptocurrencies, and stocks, along with confidence indicators. It's built for practicing Laravel PHP and MySQL.",
     tech: "Laravel, PHP, MySql, DaisyUi, Tailwindcss",
-    url: "/",
+    url: "https://github.com/EEarlll/Price-data-exchange",
   },
   "E-Trends": {
     id: "3",
