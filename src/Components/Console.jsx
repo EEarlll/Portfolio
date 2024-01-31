@@ -57,18 +57,6 @@ const commands = {
           .slip.advice,
       },
     ]),
-  random_nsfw: ({ output, setOutput }) => {
-    setOutput([
-      ...output,
-      <img
-        src={`https://nsfw-api-p302.onrender.com/media/r/boobs?${(() =>
-          Math.floor(Math.random() * 1000))()}`}
-        alt=""
-        width={200}
-        height={200}
-      />,
-    ]);
-  },
   // api
   random_gif: async ({ input, output, setOutput }) => {
     if (!input[0]) {
