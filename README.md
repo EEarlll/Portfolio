@@ -1,4 +1,4 @@
-# Portfolio Web App - [earlll.tech/]
+# Portfolio Web App - [earlll.tech](earlll.tech)
 
 This is a portfolio web application built with React, styled with Tailwind CSS, and enhanced with animations using Framer Motion.
 
