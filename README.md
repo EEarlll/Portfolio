@@ -1,4 +1,4 @@
-# Portfolio Web App
+# Portfolio Web App - [earlll.tech/]
 
 This is a portfolio web application built with React, styled with Tailwind CSS, and enhanced with animations using Framer Motion.
 
@@ -59,6 +59,7 @@ Start the development server:
 npm run dev
 ```
 Open your browser and navigate to http://localhost:3000 to view the portfolio web app.
+Or check out the live demo of ExploreBooks at [earlll.tech](earlll.tech).
 
 ## Customization
 Customize the content, colors, and styles to match your personal preferences and professional details. Update the src/data directory with your information.
